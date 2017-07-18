@@ -12,4 +12,7 @@ func main() {
 	} else {
 		fmt.Println(error)
 	}
+
+	out := os.Environ()
+	fmt.Println(out)
 }
